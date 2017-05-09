@@ -34,8 +34,8 @@
 .guild-channels .channel-text.unread:not(.selected):not(.channel-muted):before {
     width: 6px;
     height: 6px;
-    background: #79797f;
-    left: 170px;
+    background: #9e9e9e;
+    left: 183px;
 }
 .guilds-wrapper .guilds .guild.audio .guild-inner:after {
     top: 13px;
@@ -71,4 +71,31 @@ h2 {
 .channel-members .member {
     padding: 5px 14px;
     padding-right: 0px;
+}
+.channel-textarea {
+    margin: 5px;
+}
+.chat form {
+    margin: 0;
+}
+.channel-textarea-inner {
+    padding: 7px;
+}
+.message-group {
+    margin-left: 5px;
+    margin-right: 0;
+}
+.message-group .comment {
+    margin-right: 5px;
+}
+.message-group.compact .timestamp {
+    width: 33px;
+}
+.channel-textarea-upload {
+    margin: -6px 10px -12px -10px;
+    width: 40px;
+    height: 32px;
+}
+.message-group.compact .message .message-text .markup .message-content {
+    font-size: 18px;
 }
