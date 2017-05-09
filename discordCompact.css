@@ -1,0 +1,74 @@
+.guilds-wrapper .guilds .guild .badge {
+    bottom: 35px;
+    right: 0px;
+}
+.guilds-wrapper .guilds .guild.unread:before {
+    height: 10px;
+    background: #fdff9b;
+    margin-left: 70px;
+}
+.guilds-wrapper .guilds {
+    padding: 10px 0 0px 5px;
+}
+.guilds-wrapper {
+    width: 65px;
+}
+.channels-wrap {
+    width: 200px;
+}
+#rtc-connection {
+    font-size: 10px;
+    padding: 2px;
+}
+.account {
+    height: 40px;
+    padding: 0 2px;
+}
+.account .account-details {
+    padding: 0 2px;
+}
+.avatar-small .status {
+    right: -3px;
+    bottom: 18px;
+}
+.guild-channels .channel-text.unread:not(.selected):not(.channel-muted):before {
+    width: 6px;
+    height: 6px;
+    background: #79797f;
+    left: 170px;
+}
+.guilds-wrapper .guilds .guild.audio .guild-inner:after {
+    top: 13px;
+    right: 13px;
+}
+.guilds-wrapper .guilds .guild.selected:before {
+    background: #fdff9b;
+}
+.guild-header header span {
+    line-height: 26px;
+}
+.guild-header header {
+    padding: 13px 12px;
+    height: 46px;
+}
+.chat>.title-wrap {
+    min-height: 36px;
+    width: 88%;
+}
+.win-buttons {
+    height: 36px;
+}
+.channel-members-wrap {
+    min-width: 200px;
+}
+.channel-members h2 {
+    font-size: 11px;
+    padding: 0 5px;
+}
+h2 {
+    margin: 4px 0;
+}
+.channel-members .member {
+    padding: 5px 14px;
+    padding-right: 0px;
+}
