@@ -1,0 +1,25 @@
+.theme-dark .chat form .typing span {
+    color: hsla(64, 100%, 88%, 0.8);
+}
+.spinner-pulsing-ellipsis .spinner-item {
+    background-color: #feff00;
+}
+.messages .divider.divider-red>span {
+    color: rgba(243, 255, 86, 0.8);
+}
+.typing {
+    background-color: hsla(0,0%,100%,.8);
+}
+.guilds-wrapper .guilds .guild.selected:before {
+    background: #fdff9b;
+}
+
+.guild-channels .channel-text.unread:not(.selected):not(.channel-muted):before {
+    background: #9e9e9e;
+}
+.guild-channels .channel-text.unread:not(.selected):not(.channel-muted):before {
+    background: #9e9e9e;
+}
+.guilds-wrapper .guilds .guild.unread:before {
+    background: #fdff9b;
+}
