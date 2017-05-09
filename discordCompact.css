@@ -4,7 +4,6 @@
 }
 .guilds-wrapper .guilds .guild.unread:before {
     height: 10px;
-    background: #fdff9b;
     margin-left: 70px;
 }
 .guilds-wrapper .guilds {
@@ -31,18 +30,9 @@
     right: -3px;
     bottom: 18px;
 }
-.guild-channels .channel-text.unread:not(.selected):not(.channel-muted):before {
-    width: 6px;
-    height: 6px;
-    background: #9e9e9e;
-    left: 183px;
-}
 .guilds-wrapper .guilds .guild.audio .guild-inner:after {
     top: 13px;
     right: 13px;
-}
-.guilds-wrapper .guilds .guild.selected:before {
-    background: #fdff9b;
 }
 .guild-header header span {
     line-height: 26px;
@@ -98,4 +88,10 @@ h2 {
 }
 .message-group.compact .message .message-text .markup .message-content {
     font-size: 18px;
+}
+.typing {
+    height: 14px;
+    line-height: 12px;
+    top: -8px;
+    left: 9px;
 }

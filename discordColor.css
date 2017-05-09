@@ -23,3 +23,6 @@
 .guilds-wrapper .guilds .guild.unread:before {
     background: #fdff9b;
 }
+.theme-dark .friends-table .messages .divider.divider-red>div, .theme-dark .messages-wrapper .messages .divider.divider-red>div {
+    background: #afac2a;
+}
